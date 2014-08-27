@@ -19,7 +19,7 @@ public class DownloadZipFile extends HttpServlet {
 
 	private String strLogFile;
 	private String strLogDir;
-	private static final int iBUFFER = 2048;
+	private static final int iBUFFER = 2048; 
     /**
      * Default constructor. 
      */
@@ -70,6 +70,7 @@ public class DownloadZipFile extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		System.out.println(""+request.getAttribute("_csrf"));
+		System.out.println("CS: I'm called now"); 
 		doGet(request,response);
 	}
 
