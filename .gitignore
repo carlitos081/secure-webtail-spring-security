@@ -36,9 +36,13 @@
 ehthumbs.db
 Thumbs.db
 
-# Eclipse file #
-######################
+# Eclipse files #
+#################
 .project
 .settings
 .classpath
 .metadata
+
+# Ignore maven files #
+######################
+/*/target/
